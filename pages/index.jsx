@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Banner from '../components/Banner'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className='px-8'>
         <Nav />
         <Banner/>
+        <About/>
       </main>
     </div>
   )
