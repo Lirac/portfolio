@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Nav from '../components/Nav'
 import Banner from '../components/Banner'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='px-8'>
+      <main className="px-8">
         <Nav />
-        <Banner/>
-        <About/>
+        <Banner />
+        <About />
+        <Skills />
       </main>
     </div>
   )

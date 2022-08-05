@@ -18,4 +18,16 @@
   .button {
     @apply inline-block bg-firstColor text-white p-4 rounded-lg font-medium text-sm;
   }
+
+  .section {
+    @apply mt-8 mb-16
+  }
+
+  .bar {
+    @apply h-[5px] rounded-md bg-firstColor/30
+  }
+
+  .percentage {
+    @apply h-[5px] rounded-md block bg-firstColor
+  }
 }
