@@ -6,7 +6,7 @@ import { MailIcon } from '@heroicons/react/solid'
 
 const Banner = () => {
   return (
-    <div>
+    <div className='section'>
       <div className="grid grid-cols-2 items-center pt-14">
         <div className="flex flex-col gap-4">
           <a href="">
