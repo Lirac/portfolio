@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import { FaDownload } from 'react-icons/fa'
+import { FaDownload, FaFileDownload } from 'react-icons/fa'
+import BaseButton from './BaseButton'
 
 const About = () => {
   return (
@@ -23,35 +24,31 @@ const About = () => {
 
           <div className="flex justify-evenly mb-10 text-sm">
             <div className="text-center block">
-              <span className='font-semibold text-lg text-titleColor block'>3+</span>
-              <span >
+              <span className="font-semibold text-lg text-titleColor block">
+                3+
+              </span>
+              <span>
                 Years <br /> experience
               </span>
             </div>
             <div className="text-center block">
-              <span className='font-semibold text-lg text-titleColor block'>10+</span>
+              <span className="font-semibold text-lg text-titleColor block">
+                10+
+              </span>
               <span>
                 Projects <br /> completed
               </span>
             </div>
             <div className="text-center block">
-              <span className='font-semibold text-lg text-titleColor block'>2+</span>
+              <span className="font-semibold text-lg text-titleColor block">
+                2+
+              </span>
               <span>
                 companies <br /> worked
               </span>
             </div>
           </div>
-
-          <div className='flex justify-center'>
-            <a
-              download=""
-              href="/resume.pdf"
-              className="button inline-flex items-center gap-2"
-            >
-              Download CV
-              <FaDownload />
-            </a>
-          </div>
+          <BaseButton icon={<FaFileDownload />} title={'Download CV'} />
         </div>
       </div>
     </div>
