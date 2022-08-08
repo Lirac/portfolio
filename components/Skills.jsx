@@ -15,7 +15,7 @@ const Skills = () => {
       <h2 className="font-bold text-center text-xl">Skills</h2>
       <h4 className="text-center text-sm mb-16">My technical level</h4>
 
-      <div className="max-w-3xl grid ">
+      <div className="grid ">
         <div>
           {/* Skills one */}
           <div className="">

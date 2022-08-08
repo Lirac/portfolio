@@ -48,7 +48,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <BaseButton icon={<FaFileDownload />} title={'Download CV'} />
+          <BaseButton icon={<FaFileDownload />} title={'Download CV'} link={'/resume.pdf'} />
         </div>
       </div>
     </div>
