@@ -5,8 +5,8 @@ import BaseButton from './BaseButton'
 
 const ProjectInMind = () => {
   return (
-    <div className='section text-center bg-secondColor pt-12 pb-8 px-4 rounded-md'>
-        <div>
+    <div className='section'>
+        <div className='bg-secondColor pt-12 pb-8 px-4 rounded-md text-center'>
             <div>
                 <div>
                     <h2 className='font-semibold mb-3 text-white'>Have a new Project in mind?</h2>

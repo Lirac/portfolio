@@ -5,7 +5,7 @@ import BaseButton from './BaseButton'
 
 const About = () => {
   return (
-    <div className="mt-16 pb-16">
+    <div className="mt-16 pb-16 section">
       <h2 className="font-bold text-center text-xl">About Me</h2>
       <h4 className="text-center text-sm mb-16">My Introduction</h4>
 

@@ -13,7 +13,8 @@ module.exports = {
         firstColor: '#6e57e0',
         firstColorAlt: '#5a43cb',
         secondColor: '#6e57e0',
-        titleColor: '#242329'
+        titleColor: '#242329',
+        colorLighter: '#c1b6fc'
       },
     },
   },

@@ -7,6 +7,7 @@ import Qualification from '../components/Qualification'
 import Portfolio from '../components/Portfolio'
 import ProjectInMind from '../components/ProjectInMind'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-8">
+      <main className="">
         <Nav />
         <Banner />
         <About />
@@ -26,6 +27,7 @@ export default function Home() {
         <Portfolio />
         <ProjectInMind />
         <Contact />
+        <Footer/>
       </main>
     </div>
   )
