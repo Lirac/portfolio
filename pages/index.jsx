@@ -5,6 +5,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Qualification from '../components/Qualification'
 import Portfolio from '../components/Portfolio'
+import ProjectInMind from '../components/ProjectInMind'
 
 export default function Home() {
   return (
@@ -20,8 +21,9 @@ export default function Home() {
         <Banner />
         <About />
         <Skills />
-        <Qualification/>
-        <Portfolio/>
+        <Qualification />
+        <Portfolio />
+        <ProjectInMind />
       </main>
     </div>
   )
