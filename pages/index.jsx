@@ -6,6 +6,7 @@ import Skills from '../components/Skills'
 import Qualification from '../components/Qualification'
 import Portfolio from '../components/Portfolio'
 import ProjectInMind from '../components/ProjectInMind'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Qualification />
         <Portfolio />
         <ProjectInMind />
+        <Contact />
       </main>
     </div>
   )
