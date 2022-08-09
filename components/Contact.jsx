@@ -1,6 +1,7 @@
 import { MailIcon } from '@heroicons/react/solid'
 import React from 'react'
 import { MdLocalPhone, MdLocationPin, MdMail } from 'react-icons/md'
+import BaseButton from './BaseButton'
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
       <h2 className="font-bold text-center text-xl">Contact Me</h2>
       <h4 className="text-center text-sm mb-16">Get in touch</h4>
 
-      <div className="">
+      <div className="md:grid md:grid-cols-2">
         <div className="space-y-8 mb-16">
           <div className="flex mb-3 space-x-3">
             <MdLocalPhone className="w-8 h-8 text-firstColor" />
@@ -40,7 +41,7 @@ const Contact = () => {
 
         <form action="" className="grid">
           <div>
-            <div className=''>
+            <div className="">
               <label htmlFor="">Name</label>
               <input
                 className="w-full p-4 rounded-lg border border-gray-400 mb-4 outline-none"
@@ -70,14 +71,8 @@ const Contact = () => {
               rows={7}
             />
           </div>
+          <BaseButton icon={<MdMail />} title={'Submit'} />
         </form>
-        <a
-          href="#contact"
-          className="button inline-flex items-center font-medium text-sm mt-2 hover:bg-firstColorAlt"
-        >
-          Contact Me
-          <MailIcon className="w-5 h-5 ml-2 transition-all"></MailIcon>
-        </a>
       </div>
     </div>
   )

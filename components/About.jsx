@@ -9,7 +9,7 @@ const About = () => {
       <h2 className="font-bold text-center text-xl">About Me</h2>
       <h4 className="text-center text-sm mb-16">My Introduction</h4>
 
-      <div className="grid text-center">
+      <div className="grid md:grid-cols-2 text-center">
         <img
           src="/me.jpg"
           alt=""
