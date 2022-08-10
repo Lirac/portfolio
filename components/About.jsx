@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import { FaDownload, FaFileDownload } from 'react-icons/fa'
+import { FaFileDownload } from 'react-icons/fa'
 import BaseButton from './BaseButton'
 
 const About = () => {
   return (
-    <div className="mt-16 pb-16 section">
+    <div className="mt-16 pb-16 section" name='test1'>
       <h2 className="font-bold text-center text-xl">About Me</h2>
       <h4 className="text-center text-sm mb-16">My Introduction</h4>
 
@@ -17,7 +17,7 @@ const About = () => {
         />
 
         <div className="pt-8">
-          <p className="text-center mb-9">
+          <p className="text-center mb-9 text-gray-500">
             Web Developer with extensive knowledge and years of experience
             building high quality web applications
           </p>

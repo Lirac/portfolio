@@ -1,8 +1,15 @@
 import React from 'react'
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa'
-import { BsMouse, BsArrowDownShort } from 'react-icons/bs'
-import Image from 'next/image'
+import { BsMouse, BsArrowDownShort, BsArrowUpShort } from 'react-icons/bs'
+import * as Scroll from 'react-scroll'
 import { MailIcon } from '@heroicons/react/solid'
+
+// let Link      = Scroll.Link;
+// let Button    = Scroll.Button;
+// let Element   = Scroll.Element;
+// let Events    = Scroll.Events;
+let scroll = Scroll.animateScroll
+let scrollSpy = Scroll.scrollSpy
 
 const Banner = () => {
   return (
@@ -56,11 +63,11 @@ const Banner = () => {
         </div>
 
         <div className="col-span-3 pt-8 md:col-auto">
-          <h1 className="font-bold text-3xl">Hi, I am Mfoniso</h1>
-          <h3 className="font-semibold text-lg mb-4 md:mb-8 text-gray-500">
+          <h1 className="font-bold text-3xl">Hi, I am Mfoniso Ayara</h1>
+          <h3 className="font-semibold text-lg mb-4 md:mb-6 text-gray-500">
             Frontend Engineer
           </h3>
-          <p className="text-sm md:text-lg text-gray-500 mb-6">
+          <p className="text-sm md:text-base text-gray-500 mb-6">
             High level experience in web design and knowledge, producing quality
             work.
           </p>
@@ -72,16 +79,6 @@ const Banner = () => {
             <MailIcon className="w-5 h-5 ml-2 transition-all"></MailIcon>
           </a>
         </div>
-      </div>
-
-      <div className="mt-8 text-firstColor transition-all duration-300 hover:translate-y-1 hidden">
-        <a href="#about" className="flex items-end">
-          <BsMouse className="w-6 h-6" />
-          <span className="text-sm text-titleColor mr-1 font-medium">
-            Scroll down
-          </span>
-          <BsArrowDownShort className="w-6 h-6" />
-        </a>
       </div>
     </div>
   )

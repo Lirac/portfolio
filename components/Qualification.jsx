@@ -7,7 +7,7 @@ const Qualification = () => {
 
   return (
     <div className="section max-w-3xl mx-auto">
-      <h2 className="font-bold text-center text-xl">Qualification</h2>
+      <h2 className="font-bold text-center text-xl">Qualifications</h2>
       <h4 className="text-center text-sm mb-16">My Personal Journey</h4>
 
       <div className="">

@@ -12,7 +12,7 @@
 
 @layer components {
   .link {
-    @apply flex flex-col font-medium gap-1 items-center text-[#242329] hover:text-purple-500 text-sm;
+    @apply flex flex-col md:font-semibold font-medium gap-1 items-center text-[#242329] hover:text-purple-500 text-sm;
   }
 
   .button {
