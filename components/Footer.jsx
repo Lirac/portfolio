@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="text-xs text-center text-gray-700/80 pb-4 place-self-center self-center">
+      <p className="text-xs text-center text-gray-700/80 pb-12 md:pb-4 place-self-center self-center">
         &#169; Mfoniso Ayara. All rights reserved
       </p>
     </div>

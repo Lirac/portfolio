@@ -34,7 +34,7 @@ function Nav() {
 
   return (
     <>
-      <nav className="w-full fixed bottom-0 left-0 z-10 md:hidden">
+      <nav className="w-full fixed bottom-0 left-0 z-10 md:hidden bg-indigo-100/60 py-2">
         <div className="max-w-[768px] flex justify-between mx-4 items-end">
           <a className="hover:text-[#492cd8] font-medium" href="#">
             Mfoniso
@@ -47,37 +47,37 @@ function Nav() {
           >
             <ul className="grid grid-cols-3 gap-y-8">
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(0)}>
                   <HomeIcon className="w-5 h-5"></HomeIcon>
                   Home
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(600)}>
                   <UserIcon className="w-5 h-5"></UserIcon>
                   About
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(1400)}>
                   <ClipboardListIcon className="w-5 h-5"></ClipboardListIcon>
                   Skills
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(2100)}>
                   <BriefcaseIcon className="w-5 h-5"></BriefcaseIcon>
-                  Services
+                  Qualifications
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(2600)}>
                   <PhotographIcon className="w-5 h-5"></PhotographIcon>
                   Portfolio
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => setShowNav(!showNav)}>
+                <a className="link" onClick={() => scroll.scrollTo(3400)}>
                   <MailIcon className="w-5 h-5"></MailIcon>
                   Contact Me
                 </a>
