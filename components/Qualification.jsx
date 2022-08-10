@@ -6,12 +6,12 @@ const Qualification = () => {
   const [tabTwo, setTabTwo] = useState(false)
 
   return (
-    <div className="section max-w-3xl mx-auto">
+    <div className="section max-w-3xl lg:max-w-4xl mx-auto">
       <h2 className="font-bold text-center text-xl">Qualifications</h2>
       <h4 className="text-center text-sm mb-16">My Personal Journey</h4>
 
       <div className="">
-        <div className="flex gap-4 justify-evenly mb-8">
+        <div className="flex gap-4 md:gap-0 justify-evenly mb-8">
           <div className={`flex gap-2 items-center cursor-pointer hover:text-firstColorAlt ${tabOne && 'text-firstColor'}`} onClick={() => {
             setTabOne(true)
             setTabTwo(false)
@@ -44,6 +44,7 @@ const Qualification = () => {
               university={'American Univerisity of Nigeria, Yola, Nigeria'}
               left={false}
               lastrow={true}
+              
             />
           </div>
           {/* Work */}

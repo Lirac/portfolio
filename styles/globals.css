@@ -20,7 +20,7 @@
   }
 
   .section {
-    @apply mt-8 mb-16 max-w-4xl md:max-w-6xl mx-auto px-8 
+    @apply mt-8 mb-16 md:mb-[100px] max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto px-8 
   }
 
   .bar {

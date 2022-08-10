@@ -9,14 +9,14 @@ const About = () => {
       <h2 className="font-bold text-center text-xl">About Me</h2>
       <h4 className="text-center text-sm mb-16">My Introduction</h4>
 
-      <div className="grid md:grid-cols-2 text-center">
+      <div className="grid md:grid-cols-2">
         <img
           src="/me.jpg"
           alt=""
-          className=" rounded-lg self-center justify-self-center w-[200px]"
+          className=" rounded-lg self-center justify-self-center md:w-[200px] lg:w-[300px]"
         />
 
-        <div className="pt-8">
+        <div className="pt-8 text-center">
           <p className="text-center mb-9 text-gray-500">
             Web Developer with extensive knowledge and years of experience
             building high quality web applications

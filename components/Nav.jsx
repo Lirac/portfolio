@@ -102,7 +102,7 @@ function Nav() {
           navBackground ? 'bg-stone-100/80 z-10 transition-all duration-500' : 'bg-transparent'
         }`}
       >
-        <div className="max-w-6xl mx-auto px-8 flex items-center h-full justify-between">
+        <div className="md:max-w-6xl lg:max-w-7xl mx-auto px-8 flex items-center h-full justify-between">
           <a className="hover:text-[#492cd8] font-bold text-2xl" href="#">
             Mfoniso
           </a>
@@ -115,12 +115,12 @@ function Nav() {
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => scroll.scrollTo(550)}>
+                <a className="link" onClick={() => scroll.scrollTo(650)}>
                   About
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => scroll.scrollTo(1050)}>
+                <a className="link" onClick={() => scroll.scrollTo(1250)}>
                   Skills
                 </a>
               </Link>
@@ -130,7 +130,7 @@ function Nav() {
                 </a>
               </Link>
               <Link href="/">
-                <a className="link" onClick={() => scroll.scrollTo(2150)}>
+                <a className="link" onClick={() => scroll.scrollTo(2200)}>
                   Portfolio
                 </a>
               </Link>

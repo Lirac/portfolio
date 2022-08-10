@@ -11,8 +11,8 @@ const Portfolio = () => {
       <h2 className="font-bold text-center text-xl">Portfolio</h2>
       <h4 className="text-center text-sm mb-16">Most Recent Work</h4>
 
-      <div>
-        <Carousel showArrows={true} infiniteLoop={true}>
+      <div className='max-w-[800px] mx-auto' >
+        <Carousel showArrows={true} infiniteLoop={true} width=''>
           <div className="grid text-center py-8">
             <div className="w-[300px] md:w-[800px] mx-auto">
               <Image

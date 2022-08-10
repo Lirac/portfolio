@@ -13,7 +13,7 @@ let scrollSpy = Scroll.scrollSpy
 
 const Banner = () => {
   return (
-    <div className="section">
+    <div className="section mt-[72px]">
       <div className="grid grid-cols-2 md:grid-cols-[max-content_1fr_1fr] items-center pt-8">
         <div className="flex flex-col gap-6 md:mr-6">
           <a
@@ -68,8 +68,7 @@ const Banner = () => {
             Frontend Engineer
           </h3>
           <p className="text-sm md:text-base text-gray-500 mb-6">
-            High level experience in web design and knowledge, producing quality
-            work.
+            Passionate frontend engineer with over 3 years of experience in developing web applications.
           </p>
           <a
             href="#contact"

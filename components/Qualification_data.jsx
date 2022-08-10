@@ -11,7 +11,7 @@ const Qualification_data = ({
     <div className="grid grid-cols-[1fr_max-content_1fr] gap-x-6">
       {!left && <div></div>}
       {!left && (
-        <div>
+        <div className='md:mr-16'>
           <span className="inline-block w-3 h-3 rounded-full bg-firstColor"></span>
           <span
             className={`${
@@ -34,7 +34,7 @@ const Qualification_data = ({
       </div>
 
       {left && (
-        <div>
+        <div className='md:mr-16'>
           <span className="inline-block w-3 h-3 rounded-full bg-firstColor"></span>
           <span
             className={` ${
