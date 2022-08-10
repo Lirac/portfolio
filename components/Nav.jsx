@@ -34,7 +34,7 @@ function Nav() {
 
   return (
     <>
-      <nav className="w-full fixed bottom-0 left-0 z-10 md:hidden bg-indigo-100/60 py-2">
+      <nav className="w-full fixed bottom-0 left-0 z-10 md:hidden bg-slate-50 py-2">
         <div className="max-w-[768px] flex justify-between mx-4 items-end">
           <a className="hover:text-[#492cd8] font-medium" href="#">
             Mfoniso
@@ -43,7 +43,7 @@ function Nav() {
           <div
             className={`bg-stone-100 fixed  ${
               showNav ? 'bottom-0' : 'bottom-[-100%]'
-            } left-0 w-full px-6 pt-8 pb-16 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] rounded-3xl transition-all duration-500`}
+            } left-0 w-full px-6 pt-8 pb-8 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] rounded-3xl transition-all duration-500`}
           >
             <ul className="grid grid-cols-3 gap-y-8">
               <Link href="/">
