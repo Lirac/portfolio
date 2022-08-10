@@ -33,7 +33,7 @@ const Skills = () => {
               <div>
                 <h1 className="font-bold text-lg">Frontend Developer</h1>
                 <span className="text-sm text-gray-500">
-                  More than 4 years experience
+                  More than 2 years experience
                 </span>
               </div>
               <MdOutlineKeyboardArrowDown
@@ -93,7 +93,7 @@ const Skills = () => {
               <div>
                 <h1 className="font-bold text-lg">JavaScript Frameworks</h1>
                 <span className="text-xs text-gray-500">
-                  More than 4 years experience
+                  More than 2 years experience
                 </span>
               </div>
               <MdOutlineKeyboardArrowDown
@@ -153,7 +153,7 @@ const Skills = () => {
               <div>
                 <h1 className="font-bold text-lg">CSS Framworks</h1>
                 <span className="text-xs text-gray-500">
-                  More than 4 years experience
+                  More than 2 years experience
                 </span>
               </div>
               <MdOutlineKeyboardArrowDown
@@ -222,7 +222,7 @@ const Skills = () => {
               <div>
                 <h1 className="font-bold text-lg">Others</h1>
                 <span className="text-xs text-gray-500">
-                  More than 4 years experience
+                  More than 2 years experience
                 </span>
               </div>
               <MdOutlineKeyboardArrowDown

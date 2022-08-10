@@ -68,7 +68,7 @@ const Banner = () => {
             Frontend Engineer
           </h3>
           <p className="text-sm md:text-base text-gray-500 mb-6">
-            Passionate frontend engineer with over 3 years of experience in developing web applications.
+            Passionate frontend engineer with over 2 years of experience in developing web applications.
           </p>
           <a
             href="#contact"
