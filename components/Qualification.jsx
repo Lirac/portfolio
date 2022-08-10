@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaBriefcase, FaGraduationCap, FaCalendarAlt } from 'react-icons/fa'
-import Qualification_data from './qualification_data'
+import Qualification_data from './Qualification_data'
 const Qualification = () => {
   const [tabOne, setTabOne] = useState(true)
   const [tabTwo, setTabTwo] = useState(false)
