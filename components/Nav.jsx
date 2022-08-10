@@ -35,10 +35,7 @@ function Nav() {
   return (
     <>
       <nav className="w-full fixed bottom-0 left-0 z-10 md:hidden bg-slate-50 py-2">
-        <div className="max-w-[768px] flex justify-between mx-4 items-end">
-          <a className="hover:text-[#492cd8] font-medium" href="#">
-            Mfoniso
-          </a>
+        <div className="max-w-[768px] text-center">
 
           <div
             className={`bg-stone-100 fixed  ${
