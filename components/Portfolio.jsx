@@ -4,6 +4,7 @@ import { FaArrowRight, FaGithub, FaGithubSquare } from 'react-icons/fa'
 import BaseButton from './BaseButton'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import ReactPlayer from 'react-player'
 
 const Portfolio = () => {
   return (
@@ -11,8 +12,8 @@ const Portfolio = () => {
       <h2 className="font-bold text-center text-xl">Portfolio</h2>
       <h4 className="text-center text-sm mb-16">Most Recent Work</h4>
 
-      <div className='max-w-[800px] mx-auto' >
-        <Carousel showArrows={true} infiniteLoop={true} width=''>
+      <div className="max-w-[800px] mx-auto">
+        <Carousel showArrows={true} infiniteLoop={true} width="">
           <div className="grid text-center py-8">
             <div className="w-[300px] md:w-[800px] mx-auto">
               <Image
@@ -115,6 +116,76 @@ const Portfolio = () => {
                 />
                 <a
                   href="https://github.com/Lirac/Netflix-clone"
+                  target={'_blank'}
+                  rel={'noopener noreferrer'}
+                  className="inline"
+                >
+                  <FaGithub className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="grid text-center py-8">
+            <div className="w-[300px] md:w-[800px] mx-auto">
+              <Image
+                height={100}
+                width={200}
+                src="/project4.png"
+                alt=""
+                layout="responsive"
+                quality={100}
+                className="rounded-lg"
+              />
+            </div>
+
+            <div className="mt-4">
+              <h3 className="font-semibold text-sm mb-2">
+                Attendance Management system
+              </h3>
+              <p className="text-xs mb-4">
+                An attendance management system built with vue.js
+              </p>
+              <div className="flex items-center justify-center gap-3">
+                <BaseButton link={'https://youtu.be/6gJyzmS-lVk'} title={'Demo'} icon={<FaArrowRight />} />
+                <a
+                  href="https://github.com/Lirac/Attend-attendance-management"
+                  target={'_blank'}
+                  rel={'noopener noreferrer'}
+                  className="inline"
+                >
+                  <FaGithub className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="grid text-center py-8">
+            <div className="w-[300px] md:w-[800px] mx-auto">
+              <Image
+                height={100}
+                width={200}
+                src="/project5.png"
+                alt=""
+                layout="responsive"
+                quality={100}
+                className="rounded-lg"
+              />
+            </div>
+
+            <div className="mt-4">
+              <h3 className="font-semibold text-sm mb-2">
+                Farm Management system
+              </h3>
+              <p className="text-xs mb-4">
+                A Farm management system built with vue.js/Node.js and MongoDB
+              </p>
+              <div className="flex items-center justify-center gap-3">
+                <BaseButton
+                  link={'https://youtu.be/-qkCpsnAX3U'}
+                  title={'Demo'}
+                  icon={<FaArrowRight />}
+                />
+                <a
+                  href="https://github.com/Lirac/MeayarAdmin"
                   target={'_blank'}
                   rel={'noopener noreferrer'}
                   className="inline"

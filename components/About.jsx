@@ -5,7 +5,7 @@ import BaseButton from './BaseButton'
 
 const About = () => {
   return (
-    <div className="mt-16 pb-16 section" name='test1'>
+    <div className="mt-16 pb-16 section" name="test1">
       <h2 className="font-bold text-center text-xl">About Me</h2>
       <h4 className="text-center text-sm mb-16">My Introduction</h4>
 
@@ -48,7 +48,13 @@ const About = () => {
               </span>
             </div>
           </div>
-          <BaseButton icon={<FaFileDownload />} title={'Download CV'} link={'/resume.pdf'} />
+          <BaseButton
+            icon={<FaFileDownload />}
+            title={'Download CV'}
+            link={
+              'https://drive.google.com/file/d/1gS-V5z44GeJo5Kuztjy9zlF7-R2Ocnw9/view?usp=sharing'
+            }
+          />
         </div>
       </div>
     </div>
