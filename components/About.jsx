@@ -25,18 +25,18 @@ const About = () => {
           <div className="flex justify-evenly mb-10 text-sm">
             <div className="text-center block">
               <span className="font-semibold text-lg text-titleColor block">
-                2+
+                4+
               </span>
               <span>
-                Years <br /> experience
+                Years <br />programming experience
               </span>
             </div>
             <div className="text-center block">
               <span className="font-semibold text-lg text-titleColor block">
-                10+
+                2+
               </span>
               <span>
-                Projects <br /> completed
+                Years <br /> working experience
               </span>
             </div>
             <div className="text-center block">
